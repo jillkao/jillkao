@@ -19,7 +19,7 @@ namespace PC.Controllers
         {
             var qs = db.blueMap_Job.ToArray();
             return Json(qs, JsonRequestBehavior.AllowGet);
-            return View(db.blueMap_Job.ToList());
+            //return View(db.blueMap_Job.ToList());
         }
 
         // GET: blueMap_Job/Details/5
